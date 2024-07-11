@@ -11,16 +11,6 @@ import PropertyOverview from './components/PropertyOverview';
 const App = () => {
   return (
     <>
-    {/* // <Router>
-    //   <Navbar />
-    //   <Routes>
-    //     <Route exact path="/" element={<Dashboard />} />
-    //     <Route exact path="/a" element={<PropertyOverview />} />
-    //     <Route exact path="/list" element={<Listing />} />
-    //     <Route exact path="/thankyou" element={<Thankyou />} />
-    //     <Route exact path="/preview" element={<PreviewPage />} />
-    //   </Routes>
-    // </Router> */}
       <Navbar />
       <Outlet />
       </>
